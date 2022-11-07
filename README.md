@@ -61,8 +61,58 @@ Screenshot
  마이페이지
 -------------
 
-<img width="563" alt="스크린샷 2022-11-07 14 57 37" src="https://user-images.githubusercontent.com/99636339/200236617-1a03bfee-fcfd-4dd4-bcfa-04a1296242f6.png">
+<img width="500" alt="스크린샷 2022-11-07 14 57 37" src="https://user-images.githubusercontent.com/99636339/200236617-1a03bfee-fcfd-4dd4-bcfa-04a1296242f6.png">
+1.로그아웃 실행<br>
+2.마이페이지 이동<br>
+3.출석 이벤트 이동<br>
 
 
+
+ 내 정보 메뉴
+-------------
+<img width="500" src="https://user-images.githubusercontent.com/99636339/200237318-44bd8aa9-76a6-4e59-ba7f-c4742d1e6fce.png">
+
+1. 내정보 메뉴<br>
+2. Post요청으로 마이 포인트, 가입일 정보를 DB에 저장된 내용을 가져옴<br>
+3. 스터디 평가 정보(평가 항목에서 평가 된 정보에 따라 기본 저장된 point DB에 -5~+5까지 정보 저장)point에 따른 표정변화<br>
+
+ 프로필
+-------------
+
+<img width="500" src="https://user-images.githubusercontent.com/99636339/200237331-93dfe77b-6b1d-4ff4-b30d-53e32a5ff148.png">
+
+1. 프로필 내 자기소개 정보를 수정 하여 Update요정 보냄.<br>
+2. 비밀 번호 변경을 위해 저장된 비밀번호가 DB에 일치하는 지 확인 후 변경(알림창 생성)<br>
+3. 회원 탈퇴시 delete 요청을 보내 DB테이블 내에 관련된 회원의 모든 정보 삭제<br>
+
+본인 커뮤니티 게시글 목록
+-------------------
+
+<img width="500" src="https://user-images.githubusercontent.com/99636339/200237909-a14ecd09-a5c2-45e0-8988-54a58b1e167c.png">
+
+1.작성자의 프로필과 날짜 제목 닉네임등을 DB에서 자신의 회원 정보와 일치하는 커뮤니티 table의 모든 정보 호출<br>
+2.작성된 커뮤니티 게시글 페이징 처리<br>
+
+본인 스터디 게시글 목록
+-------------------
+
+<img width="500" src="https://user-images.githubusercontent.com/99636339/200238153-8265c6a7-1911-486b-bea9-384c4949e373.png">
+
+1.작성자의 프로필과 날짜 제목 닉네임등을 DB에서 자신의 회원 정보와 일치하는 스터디 table의 모든 정보 호출<br>
+2.작성된 스터디 게시글 페이징 처리<br>
+
+출석 이벤트
+--------
+
+<img width="500" src="https://user-images.githubusercontent.com/99636339/200238441-a2024446-7a1c-4516-9e75-60c03b5e4b83.png">
+
+1.계정 당 1 회 이벤트 실시<br>
+2.div에 따른 value값 내장<br>
+3.침div에 일치 하는 div의 value를 반환 하여 상품권이로 저장<br>
+
+프로젝트 소개 페이지
+---------------
+<img width="500" alt="스크린샷 2022-11-07 15 17 15" src="https://user-images.githubusercontent.com/99636339/200239976-1ec14104-1622-4b96-a45b-3c67217c1240.png">
+<img width="500" alt="스크린샷 2022-11-07 15 17 29" src="https://user-images.githubusercontent.com/99636339/200239987-4ff70eda-565d-4d21-bb8f-37828e792dc3.png">
 
 
